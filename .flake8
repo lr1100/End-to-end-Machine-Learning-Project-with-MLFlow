@@ -1,0 +1,10 @@
+[flake8]
+max-line-length = 120
+extend-ignore = E203, E231, E402, W504, E741
+exclude = 
+    venv
+    experiment_repo
+    dataset_repo
+    evaluation_repo
+    evaluation_repo_prelim
+    optdisc_algorithms/*
